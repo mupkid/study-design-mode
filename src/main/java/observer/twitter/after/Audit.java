@@ -1,0 +1,28 @@
+package observer.twitter.after;
+
+/**
+ * @author haoxian, ou
+ * @date 2021/8/1 14:07
+ */
+public class Audit extends Observer {
+    private Twitter twitter;
+
+    /**
+     * Observer 聚合了一个 ConcreteSubject，而不是聚合一个 Subject
+     * 这是实现的关键，因为只有这样，update的时候才能获取 ConcreteSubject 具体的数据
+     *
+     * @param twitter
+     */
+    public Audit(Twitter twitter) {
+        this.twitter = twitter;
+    }
+
+    @Override
+    public void update() {
+        int twitterId = twitter.getTwitterId();
+        int userId = twitter.getUserId();
+
+        System.out.println("audit " + twitterId);
+        // todo: 小秘书审核内容，此处省略具体实现
+    }
+}
