@@ -105,6 +105,7 @@ fabric.properties
 *.iml
 out
 gen
+/target/
 ### Eclipse template
 .metadata
 bin/
