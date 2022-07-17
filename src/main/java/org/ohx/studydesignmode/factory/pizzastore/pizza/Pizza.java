@@ -1,29 +1,62 @@
 package org.ohx.studydesignmode.factory.pizzastore.pizza;
 
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Cheese.Cheese;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Clam.Clams;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Dough.Dough;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Pepperoni.Pepperoni;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Sauce.Sauce;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Veggie.Veggies;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.cheese.Cheese;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.clam.Clams;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.dough.Dough;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.pepperoni.Pepperoni;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.sauce.Sauce;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.veggie.Veggies;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
+ * 披萨
+ *
  * @author mudkip
  * @date 2022/7/16
  */
 public abstract class Pizza {
+    /**
+     * 披萨名
+     */
     protected String name;
+
+    /**
+     * 面团
+     */
     protected Dough dough;
+
+    /**
+     * 酱料
+     */
     protected Sauce sauce;
+
+    /**
+     * 蔬菜
+     */
     protected Veggies veggies[];
+
+    /**
+     * 芝士
+     */
     protected Cheese cheese;
+
+    /**
+     * 香肠
+     */
     protected Pepperoni pepperoni;
-    protected Clams clams;
 
-    ArrayList toppings = new ArrayList();
+    /**
+     * 蛤蜊
+     */
+    protected Clams clam;
 
+    protected ArrayList toppings = new ArrayList();
+
+    /**
+     * 披萨准备，在这里收集披萨所需要的原料，不同披萨原料不同，因此声明为抽象方法
+     */
     public abstract void prepare();
 
     public void bake() {
@@ -48,6 +81,15 @@ public abstract class Pizza {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "Pizza{" +
+            "name='" + name + '\'' +
+            ", dough=" + dough +
+            ", sauce=" + sauce +
+            ", veggies=" + Arrays.toString(veggies) +
+            ", cheese=" + cheese +
+            ", pepperoni=" + pepperoni +
+            ", clam=" + clam +
+            ", toppings=" + toppings +
+            '}';
     }
 }

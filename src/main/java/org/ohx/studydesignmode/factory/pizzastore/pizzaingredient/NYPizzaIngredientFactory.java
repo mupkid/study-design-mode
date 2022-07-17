@@ -1,17 +1,23 @@
 package org.ohx.studydesignmode.factory.pizzastore.pizzaingredient;
 
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Cheese.Cheese;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Cheese.ReggianoCheese;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Clam.Clams;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Clam.FreshClams;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Dough.Dough;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Dough.ThinCrustDough;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Pepperoni.Pepperoni;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Pepperoni.SlicedPepperoni;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Sauce.MarinaraSauce;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Sauce.Sauce;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Veggie.*;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.cheese.Cheese;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.cheese.ReggianoCheese;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.clam.Clams;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.clam.FreshClams;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.dough.Dough;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.dough.ThinCrustDough;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.pepperoni.Pepperoni;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.pepperoni.SlicedPepperoni;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.sauce.MarinaraSauce;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.sauce.Sauce;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.veggie.*;
 
+/**
+ * 纽约披萨原料工厂
+ *
+ * @author mudkip
+ * @date 2022/7/16
+ */
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     public NYPizzaIngredientFactory() {
         super();
@@ -34,7 +40,7 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Veggies[] createVeggies() {
-        Veggies veggies[]={new Garlic(),new Onion(),new Mushroom(),new RedPaper()};
+        Veggies veggies[] = {new Garlic(), new Onion(), new Mushroom(), new RedPaper()};
         return veggies;
     }
 

@@ -3,15 +3,15 @@ package org.ohx.studydesignmode.factory.pizzastore.pizza;
 import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.PizzaIngredientFactory;
 
 /**
- * 芝士披萨
+ * 蛤蜊披萨
  *
  * @author mudkip
- * @date 2022/7/16
+ * @date 2022/7/17
  */
-public class CheesePizza extends Pizza {
+public class ClamPizza extends Pizza {
     private PizzaIngredientFactory ingredientFactory;
 
-    public CheesePizza(PizzaIngredientFactory ingredientFactory) {
+    public ClamPizza(PizzaIngredientFactory ingredientFactory) {
         this.ingredientFactory = ingredientFactory;
     }
 
@@ -21,5 +21,6 @@ public class CheesePizza extends Pizza {
         dough = ingredientFactory.createDough();
         sauce = ingredientFactory.createSauce();
         cheese = ingredientFactory.createCheese();
+        clam = ingredientFactory.createClam();
     }
 }

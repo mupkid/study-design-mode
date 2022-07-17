@@ -1,20 +1,26 @@
 package org.ohx.studydesignmode.factory.pizzastore.pizzaingredient;
 
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Cheese.Cheese;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Cheese.Mozzarella;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Clam.Clams;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Clam.FrozenClams;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Dough.Dough;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Dough.ThinCrustDough;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Pepperoni.Pepperoni;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Pepperoni.SlicedPepperoni;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Sauce.PlumTomatoSauce;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Sauce.Sauce;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Veggie.BlackOlives;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Veggie.EggPlant;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Veggie.Spinach;
-import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.Veggie.Veggies;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.cheese.Cheese;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.cheese.Mozzarella;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.clam.Clams;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.clam.FrozenClams;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.dough.Dough;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.dough.ThinCrustDough;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.pepperoni.Pepperoni;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.pepperoni.SlicedPepperoni;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.sauce.PlumTomatoSauce;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.sauce.Sauce;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.veggie.BlackOlives;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.veggie.EggPlant;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.veggie.Spinach;
+import org.ohx.studydesignmode.factory.pizzastore.pizzaingredient.veggie.Veggies;
 
+/**
+ * 芝加哥披萨原料工厂
+ *
+ * @author mudkip
+ * @date 2022/7/16
+ */
 public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override
     public Dough createDough() {
@@ -33,7 +39,7 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 
     @Override
     public Veggies[] createVeggies() {
-        Veggies veggies[] ={new Spinach(),new EggPlant(),new BlackOlives()};
+        Veggies veggies[] = {new Spinach(), new EggPlant(), new BlackOlives()};
         return veggies;
     }
 
