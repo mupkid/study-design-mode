@@ -7,6 +7,13 @@ package org.ohx.studydesignmode.observer.twitter.befor;
  * @date 2021/7/27 21:47
  */
 public class Twitter {
+    /**
+     * 发布推文
+     *
+     * @param userId  发布人ID
+     * @param content 内容
+     * @return
+     */
     public static boolean publish(int userId, String content) {
         // 保存推特内容
         int twitterId = save(content);
