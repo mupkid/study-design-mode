@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.singleton;
+package org.ohx.studysingleton;
 
 /**
  * @author mudkip

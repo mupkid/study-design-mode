@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.singleton;
+package org.ohx.studysingleton;
 
 /**
  * 单例模式实现4：饿汉式（静态常量）

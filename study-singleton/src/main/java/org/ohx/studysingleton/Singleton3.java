@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.singleton;
+package org.ohx.studysingleton;
 
 /**
  * 单例模式实现3：懒汉式（同步代码块）
