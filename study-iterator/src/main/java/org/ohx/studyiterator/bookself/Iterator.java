@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.iterator.bookself;
+package org.ohx.studyiterator.bookself;
 
 /**
  * 遍历集合的接口

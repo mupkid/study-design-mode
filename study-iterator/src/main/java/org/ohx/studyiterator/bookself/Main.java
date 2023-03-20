@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.iterator.bookself;
+package org.ohx.studyiterator.bookself;
 
 /**
  * @author haoxian, ou

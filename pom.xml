@@ -11,6 +11,7 @@
     <modules>
         <module>study-design-principle</module>
         <module>study-singleton</module>
+        <module>study-iterator</module>
     </modules>
 
     <properties>
