@@ -12,6 +12,7 @@
         <module>study-design-principle</module>
         <module>study-singleton</module>
         <module>study-iterator</module>
+        <module>study-factory</module>
     </modules>
 
     <properties>
