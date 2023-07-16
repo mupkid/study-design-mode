@@ -3,7 +3,7 @@ package org.ohx.studyfacade.userinfo.before;
 /**
  * 访客系统
  *
- * @author haoxian, ou
+ * @author ohx
  * @date 2021/7/26 23:18
  */
 public class Visitor {

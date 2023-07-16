@@ -6,7 +6,7 @@ import com.google.gson.JsonObject;
 /**
  * 推荐系统
  *
- * @author haoxian, ou
+ * @author ohx
  * @date 2021/7/26 23:12
  */
 public class Recommender {

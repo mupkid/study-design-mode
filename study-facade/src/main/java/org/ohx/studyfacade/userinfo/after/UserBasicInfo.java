@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * 用户基本信息
  *
- * @author haoxian, ou
+ * @author ohx
  * @date 2021/7/23 23:24
  */
 public class UserBasicInfo {

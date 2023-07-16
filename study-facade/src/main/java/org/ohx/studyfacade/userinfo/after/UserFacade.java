@@ -13,7 +13,7 @@ import com.google.gson.JsonObject;
  * 2、UserFacade接口内部需要依赖UserBasicInfo等类完成实际的接口数据处理，
  * UserFacade类只是在这些类的返回基础上进行二次加工处理
  *
- * @author haoxian, ou
+ * @author ohx
  * @date 2021/7/27 12:41
  */
 public class UserFacade {
