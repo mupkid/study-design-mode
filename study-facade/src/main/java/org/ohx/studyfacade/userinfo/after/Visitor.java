@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.facade.userinfo.after;
+package org.ohx.studyfacade.userinfo.after;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

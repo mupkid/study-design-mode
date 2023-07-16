@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.facade.userinfo.after;
+package org.ohx.studyfacade.userinfo.before;
 
 import java.util.Date;
 

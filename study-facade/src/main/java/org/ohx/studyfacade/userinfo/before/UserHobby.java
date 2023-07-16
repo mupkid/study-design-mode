@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.facade.userinfo.before;
+package org.ohx.studyfacade.userinfo.before;
 
 /**
  * 用户兴趣爱好
