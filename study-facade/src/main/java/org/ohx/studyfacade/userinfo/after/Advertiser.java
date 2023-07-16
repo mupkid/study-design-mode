@@ -7,7 +7,7 @@ import com.google.gson.JsonObject;
  * 广告系统
  *
  * @author ohx
- * @date 2021/7/27 21:19
+ * @date 2021/7/27
  */
 public class Advertiser {
     /**

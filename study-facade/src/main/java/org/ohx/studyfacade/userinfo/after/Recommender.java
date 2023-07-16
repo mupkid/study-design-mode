@@ -7,7 +7,7 @@ import com.google.gson.JsonObject;
  * 推荐系统
  *
  * @author ohx
- * @date 2021/7/26 23:12
+ * @date 2021/7/26
  */
 public class Recommender {
     public void getSchoolFellow(int userId) {

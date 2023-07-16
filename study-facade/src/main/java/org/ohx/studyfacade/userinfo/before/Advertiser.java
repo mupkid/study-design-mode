@@ -4,7 +4,7 @@ package org.ohx.studyfacade.userinfo.before;
  * 广告系统
  *
  * @author ohx
- * @date 2021/7/26 23:06
+ * @date 2021/7/26
  */
 public class Advertiser {
     /**

@@ -4,7 +4,7 @@ package org.ohx.studyfacade.userinfo.before;
  * 访客系统
  *
  * @author ohx
- * @date 2021/7/26 23:18
+ * @date 2021/7/26
  */
 public class Visitor {
     public void visitUserAllInfo(int userId) {

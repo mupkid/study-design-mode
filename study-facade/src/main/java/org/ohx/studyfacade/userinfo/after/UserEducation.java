@@ -6,7 +6,7 @@ import java.util.Date;
  * 用户教育信息
  *
  * @author ohx
- * @date 2021/7/26 22:53
+ * @date 2021/7/26
  */
 public class UserEducation {
     private String schoolName;

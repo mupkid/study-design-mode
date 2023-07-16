@@ -4,7 +4,7 @@ package org.ohx.studyfacade.userinfo.after;
  * 用户兴趣爱好
  *
  * @author ohx
- * @date 2021/7/26 23:00
+ * @date 2021/7/26
  */
 public class UserHobby {
     private String hobby;
