@@ -13,6 +13,7 @@
         <module>study-singleton</module>
         <module>study-iterator</module>
         <module>study-factory</module>
+        <module>study-adapter</module>
     </modules>
 
     <properties>
