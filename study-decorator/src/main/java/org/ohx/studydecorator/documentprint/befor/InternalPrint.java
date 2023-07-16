@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.decorator.documentprint.befor;
+package org.ohx.studydecorator.documentprint.befor;
 
 /**
  * 内部公开文档的打印

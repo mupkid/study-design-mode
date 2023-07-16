@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.decorator.documentprint.after;
+package org.ohx.studydecorator.documentprint.after;
 
 /**
  * 修饰的打印任务，对应 Decorator 模式中的 Decorator

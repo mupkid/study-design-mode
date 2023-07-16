@@ -15,6 +15,7 @@
         <module>study-factory</module>
         <module>study-adapter</module>
         <module>study-facade</module>
+        <module>study-decorator</module>
     </modules>
 
     <properties>

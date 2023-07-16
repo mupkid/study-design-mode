@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.decorator.documentprint.after;
+package org.ohx.studydecorator.documentprint.after;
 
 /**
  * 文本打印，对应 Decorator 模式中的 ConcreteComponent

@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.decorator.documentprint.after;
+package org.ohx.studydecorator.documentprint.after;
 
 /**
  * 打印组件的父类

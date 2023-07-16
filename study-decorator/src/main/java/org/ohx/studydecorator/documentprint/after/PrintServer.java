@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.decorator.documentprint.after;
+package org.ohx.studydecorator.documentprint.after;
 
 /**
  * 文档打印系统

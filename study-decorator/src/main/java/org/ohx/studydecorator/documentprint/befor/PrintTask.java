@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.decorator.documentprint.befor;
+package org.ohx.studydecorator.documentprint.befor;
 
 /**
  * @author haoxian, ou

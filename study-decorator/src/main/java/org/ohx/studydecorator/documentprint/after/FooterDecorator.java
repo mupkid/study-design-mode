@@ -1,12 +1,12 @@
-package org.ohx.studydesignmode.decorator.documentprint.after;
+package org.ohx.studydecorator.documentprint.after;
 
 /**
- * 文本水印打印
+ * 页脚打印，和页眉打印类似
  *
  * @author haoxian, ou
- * @date 2021/7/23 7:48
+ * @date 2021/7/23 7:45
  */
-public class TextWaterMarkDecorator extends PrintDecorator {
+public class FooterDecorator extends PrintDecorator {
     /**
      * 被修饰的打印组件
      */
@@ -17,14 +17,14 @@ public class TextWaterMarkDecorator extends PrintDecorator {
      */
     private String text;
 
-    public TextWaterMarkDecorator(PrintComponent component, String text) {
+    public FooterDecorator(PrintComponent component, String text) {
         this.component = component;
         this.text = text;
     }
 
     @Override
     public void print() {
-        Printer.printTextWaterMark(this.text);
+        Printer.printFooter(this.text);
 
         this.component.print();
     }
