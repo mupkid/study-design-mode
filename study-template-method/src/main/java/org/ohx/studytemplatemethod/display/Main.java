@@ -12,6 +12,5 @@ public class Main {
         d1.display();
         d2.display();
         d3.display();
-        String a = new String(String.valueOf('a'));
     }
 }
