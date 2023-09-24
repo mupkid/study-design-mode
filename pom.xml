@@ -17,6 +17,7 @@
         <module>study-facade</module>
         <module>study-decorator</module>
         <module>study-template-method</module>
+        <module>study-prototype</module>
     </modules>
 
     <properties>

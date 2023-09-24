@@ -1,4 +1,4 @@
-package org.ohx.studydesignmode.prototype.framework;
+package org.ohx.studyprototype.framework;
 
 /**
  * @author mudkip
