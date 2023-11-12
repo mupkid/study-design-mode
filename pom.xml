@@ -18,6 +18,7 @@
         <module>study-decorator</module>
         <module>study-template-method</module>
         <module>study-prototype</module>
+        <module>study-builder</module>
     </modules>
 
     <properties>
