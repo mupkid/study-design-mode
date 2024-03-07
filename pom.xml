@@ -19,6 +19,7 @@
         <module>study-template-method</module>
         <module>study-prototype</module>
         <module>study-builder</module>
+        <module>study-bridge</module>
     </modules>
 
     <properties>
