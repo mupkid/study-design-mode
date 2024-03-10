@@ -20,6 +20,7 @@
         <module>study-prototype</module>
         <module>study-builder</module>
         <module>study-bridge</module>
+        <module>study-strategy</module>
     </modules>
 
     <properties>
